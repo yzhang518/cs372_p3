@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "friendly_name": "LosAngeles",
+            "ip_address": "127.0.0.1",
+            "port": 54321
+        },
+        {
+            "friendly_name": "London",
+            "ip_address": "127.0.0.1",
+            "port": 54322
+        },
+        {
+            "friendly_name": "Brisbane",
+            "ip_address": "127.0.0.1",
+            "port": 54323
+        },
+        {
+            "friendly_name": "NewYork",
+            "ip_address": "127.0.0.1",
+            "port": 54324
+        }
+    ]
+}
