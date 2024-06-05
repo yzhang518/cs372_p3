@@ -1,0 +1,29 @@
+{
+  "London": {
+      "HTTP": [
+          ["Wiki", "http://www.wikipedia.org", 15]
+      ],
+      "HTTPS": [
+          ["Wiki", "https://www.wikipedia.org", 10]
+      ],
+  },
+  "LosAngeles": {
+      "HTTP": [
+          ["Wiki", "http://www.wikipedia.org", 10]
+      ],
+      "HTTPS": [
+          ["Wiki", "https://www.wikipedia.org", 12]
+      ],
+  },
+  "Brisbane": {
+      "HTTP": [
+          ["Wiki", "http://www.wikipedia.org", 15]
+      ],
+      "HTTPS": [
+          ["Wiki", "https://www.wikipedia.org", 10]
+      ],
+      "NTP": [
+          ["Public NTP Server", "pool.ntp.org", 12]
+      ]
+  }
+}

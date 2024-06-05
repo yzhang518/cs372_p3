@@ -1,0 +1,584 @@
+[2024-06-05 08:51:53][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 08:52:18][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 08:52:18][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 08:52:18][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 08:52:18][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 08:52:18][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Node Node1 does not exist in the node list...
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Node Node2 does not exist in the node list...
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Node Node3 does not exist in the node list...
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Node Node4 does not exist in the node list...
+[2024-06-05 09:29:25][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 09:29:25][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Node2...
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] Node1*         | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] Node2*         | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] Node3*         | 192.168.1.3 | 8002  | Live   | None           | 0                 
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] Node4*         | 192.168.1.4 | 8003  | Live   | None           | 0                 
+[2024-06-05 09:29:32][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:29:32][HiveSenderClient               ][ERROR  ] Connection to Node3 failed
+[2024-06-05 09:29:35][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Node3...
+[2024-06-05 09:29:39][HiveSenderClient               ][ERROR  ] Connection to Node2 failed
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Node Brisbane does not exist in the node list...
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Node NewYork does not exist in the node list...
+[2024-06-05 09:31:59][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 09:31:59][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to LosAngeles...
+[2024-06-05 09:32:06][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] LosAngeles*    | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] London*        | 192.168.1.2 | 8001  | Live   | None           | 1                 
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] Brisbane*      | 192.168.1.3 | 8002  | Live   | None           | 0                 
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] NewYork*       | 192.168.1.4 | 8003  | Live   | None           | 0                 
+[2024-06-05 09:32:08][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:32:09][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 09:32:13][HiveSenderClient               ][ERROR  ] Connection to LosAngeles failed
+[2024-06-05 09:32:19][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 09:32:20][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 09:55:22][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 09:55:22][HiveNodeManager                ][ERROR  ] Failed to load configuration: list indices must be integers or slices, not str
+[2024-06-05 09:55:43][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 09:55:43][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 09:55:43][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 09:55:43][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 09:55:43][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:02:01][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:02:01][HiveNodeManager                ][ERROR  ] Failed to load configuration: HiveNode.__init__() got an unexpected keyword argument 'status'
+[2024-06-05 10:02:08][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:02:08][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:02:08][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:02:08][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:02:08][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:29:38][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:29:38][HiveNodeManager                ][ERROR  ] Failed to load configuration: HiveNode.__init__() takes from 4 to 5 positional arguments but 6 were given
+[2024-06-05 10:29:41][CliCommandProcessor            ][INFO   ] Unknown command: list
+[2024-06-05 10:29:44][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:29:44][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:29:44][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:29:44][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:29:44][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:32:33][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:32:33][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 10:32:33][HiveNodeManager                ][INFO   ] Node LosAngeles already exists in the node list...
+[2024-06-05 10:32:33][HiveNodeManager                ][INFO   ] Node Brisbane already exists in the node list...
+[2024-06-05 10:32:33][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 10:32:33][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:32:43][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] Brisbane*      | 0.0.0.0    | 0     | Live   | None           | 0                 
+[2024-06-05 10:32:45][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:32:53][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:35:40][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:35:40][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 10:35:40][HiveNodeManager                ][INFO   ] Node Brisbane already exists in the node list...
+[2024-06-05 10:35:40][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 10:35:40][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] Brisbane*      | 0.0.0.0    | 0     | Live   | None           | 0                 
+[2024-06-05 10:35:44][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:35:50][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:36:00][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:36:10][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:36:20][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to Brisbane...
+[2024-06-05 10:36:32][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:36:32][HiveNodeManager                ][INFO   ] Node Brisbane does not exist in the node list...
+[2024-06-05 10:36:32][HiveNodeManager                ][INFO   ] Node London already exists in the node list...
+[2024-06-05 10:36:32][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 10:36:32][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] London*        | 0.0.0.0    | 0     | Live   | None           | 0                 
+[2024-06-05 10:36:35][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:36:42][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 10:43:42][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 10:43:42][HiveNodeManager                ][ERROR  ] Failed to load configuration: module 'datetime' has no attribute 'now'
+[2024-06-05 10:43:47][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 10:43:47][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 10:43:47][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 10:43:47][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 10:43:47][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:08:54][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 11:08:54][HiveNodeManager                ][ERROR  ] Failed to load configuration: module 'datetime' has no attribute 'now'
+[2024-06-05 11:09:29][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:09:29][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:09:29][HiveNodeManager                ][INFO   ] -------------- | ---------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 11:09:29][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1  | 54321 | Live   | None           | 0                 
+[2024-06-05 11:09:29][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:35:37][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 11:35:37][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:35:37][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:35:37][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:35:37][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 11:35:40][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:35:44][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:35:47][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:35:51][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:42:07][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:42:07][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:42:07][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:42:07][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] -------------- | ----------- | ---- | ------ | -------------- | ------------------
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000 | Live   | None           | 0                 
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001 | Live   | None           | 0                 
+[2024-06-05 11:42:12][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:42:14][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:42:17][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:42:21][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:42:27][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:42:28][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:42:35][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:42:37][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:42:42][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:45:15][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:45:15][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:45:15][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:45:15][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] -------------- | ----------- | ---- | ------ | -------------- | ------------------
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000 | Live   | None           | 0                 
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001 | Live   | None           | 0                 
+[2024-06-05 11:45:20][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:45:22][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:45:24][CliCommandProcessor            ][INFO   ] Unknown command: pri
+[2024-06-05 11:45:25][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:45:29][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:45:35][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:45:36][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:45:44][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:45:45][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:45:51][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:45:55][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:45:58][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:46:05][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:46:05][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:46:12][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:46:17][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:46:17][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:46:17][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:47:21][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:47:21][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:47:21][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:49:08][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 11:49:08][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:49:08][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:49:08][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:49:08][HiveNodeManager                ][INFO   ] -print services LosAngeles
+[2024-06-05 11:49:08][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:49:15][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:49:18][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 1                 
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 11:49:19][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:49:22][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:49:28][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:49:29][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:49:36][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:49:38][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:49:43][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:49:48][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:49:50][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:50:37][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 11:50:37][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:50:37][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:50:37][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:50:37][HiveNodeManager                ][INFO   ] -print services LosAngeles
+[2024-06-05 11:50:37][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:50:44][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 1                 
+[2024-06-05 11:50:45][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 11:50:47][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:50:51][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:50:57][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:50:58][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:51:59][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 11:51:59][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 11:51:59][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 11:51:59][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 11:51:59][HiveNodeManager                ][INFO   ] -print services LosAngeles
+[2024-06-05 11:51:59][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:52:06][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 11:52:09][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 11:52:13][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 11:52:19][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 11:52:20][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:08:39][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:08:39][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:08:39][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:08:39][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:08:39][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:08:46][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:08:49][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:08:54][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:08:59][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:09:01][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:09:08][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:09:09][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:09:15][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:10:53][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:10:53][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:10:53][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:10:53][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:10:53][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:11:00][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:03][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:11:07][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:13][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:11:14][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:21][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:23][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:11:28][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:11:33][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:11:35][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:43][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:43][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:11:50][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:11:53][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:12:22][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:12:22][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:12:22][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:12:22][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:12:22][HiveNodeManager                ][INFO   ] here?? 
+[2024-06-05 12:12:22][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:12:24][CliCommandProcessor            ][INFO   ] Unknown command: print
+[2024-06-05 12:12:29][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:12:32][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:12:37][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:12:42][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:12:44][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:12:51][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:12:52][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:12:58][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:13:02][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Dead   | None           | 4                 
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 1                 
+[2024-06-05 12:13:03][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:13:05][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:13:12][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:13:12][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:13:19][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:13:22][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:13:26][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:13:26][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:13:32][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:13:33][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:13:40][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:14:10][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:14:10][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:14:10][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:14:10][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:14:10][HiveNodeManager                ][INFO   ] here?? 
+[2024-06-05 12:14:10][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:14:17][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:20][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:14:24][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:30][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:14:31][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:38][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:40][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:14:45][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:50][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:14:52][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:14:59][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:15:00][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:15:06][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:15:10][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:15:13][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:15:13][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:15:20][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:15:20][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:15:27][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:15:30][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:15:34][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:15:41][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:16:26][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:16:26][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:16:26][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:16:26][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:16:26][HiveNodeManager                ][INFO   ] here?? 
+[2024-06-05 12:16:26][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 12:16:31][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:16:33][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:16:36][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:16:40][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:16:46][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:16:47][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:16:54][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:16:56][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Dead   | None           | 3                 
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 1                 
+[2024-06-05 12:17:00][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:17:01][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:17:06][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:17:09][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:17:16][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:17:16][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:17:23][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:17:30][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:17:30][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:17:37][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:21:39][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:21:39][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:21:39][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:21:39][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:21:39][HiveNodeManager                ][INFO   ] here?? 
+[2024-06-05 12:21:39][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:21:56][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:21:56][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:21:56][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:21:56][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:21:56][HiveNodeManager                ][INFO   ] here?? 
+[2024-06-05 12:21:56][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:22:03][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:06][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:22:10][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:16][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:22:17][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:24][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:26][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:22:31][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:22:36][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:22:38][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:45][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:22:46][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:22:52][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:56][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:22:59][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:22:59][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:23:06][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:23:06][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:23:13][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:23:21][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:23:28][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:23:35][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:23:42][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:23:49][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:23:49][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:23:56][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:03][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:10][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:17][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:24:24][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:31][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:38][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:45][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:24:52][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:24:52][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:24:59][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:06][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:13][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:13][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:25:20][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:27][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:35][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:35][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:25:42][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:49][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:25:56][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:25:56][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:26:03][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:26:10][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:26:17][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:26:24][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:26:31][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:26:31][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:47:28][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:47:28][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:47:28][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:47:28][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:47:28][HiveNodeManager                ][INFO   ] Status check for LosAngeles succeeded.
+[2024-06-05 12:47:28][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 12:47:32][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:47:36][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:47:38][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:47:43][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:47:48][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:47:50][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:47:57][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:47:58][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:48:04][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:48:08][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:48:11][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:48:18][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:48:18][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:48:25][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:48:28][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:48:32][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:48:32][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Dead   | None           | 8                 
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 1                 
+[2024-06-05 12:48:34][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:48:38][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:48:39][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:48:46][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:48:53][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:49:00][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:55:36][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 12:55:36][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 12:55:36][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 12:55:36][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 12:55:36][HiveNodeManager                ][INFO   ] Status check for LosAngeles succeeded.
+[2024-06-05 12:55:36][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to London...
+[2024-06-05 12:55:38][CliCommandProcessor            ][INFO   ] Unknown command: list
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 12:55:42][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:55:43][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:55:46][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:55:49][HiveNodeManager                ][INFO   ] Status check for LosAngeles succeeded.
+[2024-06-05 12:55:50][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:55:56][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 2                 
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 12:55:56][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 12:55:57][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:55:59][HiveNodeManager                ][INFO   ] Status check for LosAngeles succeeded.
+[2024-06-05 12:56:04][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:56:06][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:56:11][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:56:16][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:56:18][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:56:25][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:56:26][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:56:32][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:56:36][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:56:39][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:56:39][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:56:46][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 12:56:46][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:56:53][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:00][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:07][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:14][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:21][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:28][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:57:28][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:57:36][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:57:43][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:50][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:57:57][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:04][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:11][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:18][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:25][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:32][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:58:32][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:58:39][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:46][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:53][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:58:53][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:59:00][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:07][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:14][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 12:59:14][HiveSenderClient               ][WARNING] Failed to send message to London after 3 attempts
+[2024-06-05 12:59:21][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:28][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:35][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:35][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 12:59:42][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:50][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 12:59:57][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:04][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:11][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:11][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:18][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:18][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:25][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:25][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:32][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:32][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:39][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:39][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:46][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:46][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:00:53][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:00:53][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:01:00][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:01:00][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:01:07][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:01:07][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:01:14][HiveSenderClient               ][ERROR  ] Connection to New York failed
+[2024-06-05 13:01:14][HiveSenderClient               ][WARNING] Failed to send message to New York after 3 attempts
+[2024-06-05 13:15:05][HiveNodeManager                ][INFO   ] Node LosAngeles does not exist in the node list...
+[2024-06-05 13:15:05][HiveNodeManager                ][INFO   ] Node London does not exist in the node list...
+[2024-06-05 13:15:05][HiveNodeManager                ][INFO   ] Node New York does not exist in the node list...
+[2024-06-05 13:15:05][HiveNodeManager                ][INFO   ] Configuration loaded successfully.
+[2024-06-05 13:15:05][HiveNodeManager                ][INFO   ] No services configured for node.
+[2024-06-05 13:15:05][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] Friendly Name  | IP Address  | Port  | Status | Last Heartbeat | Failed Connections
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] -------------- | ----------- | ----- | ------ | -------------- | ------------------
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] LosAngeles*    | 127.0.0.1   | 54321 | Live   | None           | 0                 
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] London*        | 192.168.1.1 | 8000  | Live   | None           | 0                 
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] New York*      | 192.168.1.2 | 8001  | Live   | None           | 0                 
+[2024-06-05 13:15:10][HiveNodeManager                ][INFO   ] ------------------------------------------------------------------------------------------------------------------------
+[2024-06-05 13:15:12][HiveSenderClient               ][ERROR  ] Connection to London failed
+[2024-06-05 13:15:15][HiveNodeManager                ][INFO   ] No services configured for node.
+[2024-06-05 13:15:15][HeartbeatProtocolCommandManager][INFO   ] Sending heartbeat to New York...
+[2024-06-05 13:15:19][HiveSenderClient               ][ERROR  ] Connection to New York failed
