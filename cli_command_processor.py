@@ -10,6 +10,7 @@ from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.patch_stdout import patch_stdout
 from hive_node_manager import HiveNodeManager
 from typing import Dict, Callable
+from messages import UpdateConfigMessage
 
 
 class CliCommandProcessor:
@@ -62,6 +63,7 @@ class CliCommandProcessor:
             'exit': 'Usage: exit - Shut down the node and exit application',
             'quit': 'Usage: quit - Shut down the node and exit application',
             'help': 'Usage: help - List all available commands',
+            'update_config': 'Usage: update_config <node_name> <config> - Update configuration for a node'
         }
         self.commands: Dict[str, Callable] = {
             'list_nodes': self.list_nodes,
@@ -75,6 +77,9 @@ class CliCommandProcessor:
             'exit': self.process_command,
             'quit': self.process_command,
             'help': self.list_commands,
+            'update_config': self.update_node_config,
+            'show_node_config': self.show_node_config,
+            'show_all_nodes_config': self.show_all_nodes_config
         }
         self.hive_node_manager: HiveNodeManager = hive_node_manager
         self.outbound_message_queue: MessageQueue = outbound_message_queue
@@ -115,6 +120,13 @@ class CliCommandProcessor:
                     self.enable_heartbeat_protocol()
                 elif parts[0] == 'disable_heartbeat_protocol':
                     self.disable_heartbeat_protocol()
+                elif parts[0] == 'update_config':
+                    if len(parts) < 3:
+                        self.logger.info("CliCommandProcessor", self.commands_help['update_config'])
+                    else:
+                        node_name = parts[1]
+                        config = ' '.join(parts[2:])
+                        self.update_node_config(node_name, config)
                 elif parts[0] == 'connect':
                     if len(parts) < 3:
                         self.logger.info("CliCommandProcessor", self.commands_help['connect'])
@@ -122,11 +134,40 @@ class CliCommandProcessor:
                         ip_address: str = parts[1]
                         port: str = parts[2]
                         self.connect_to_node(ip_address, port)
+                elif command == 'show_node_config':
+                        if len(parts) < 2:
+                            self.logger.info("Usage: show_node_config <node_name>")
+                        else:
+                            node_name = parts[1]
+                            self.show_node_config(node_name)
+                elif command == 'show_all_nodes_config':
+                    self.show_all_nodes_config()
                 else:
                     self.logger.info("CliCommandProcessor", f"Unknown command: {command}")
 
             except (EOFError, KeyboardInterrupt):
                 break
+
+
+    def update_node_config(self, node_name: str, config: dict) -> None:
+        """
+        Sends a configuration update to the specified node.
+
+        Parameters:
+        ----------
+        node_name : str
+            The name of the node to update.
+        config : dict
+            The new configuration to send.
+        """
+        node = self.hive_node_manager.get_node_by_name(node_name)
+        if node:
+            update_message = UpdateConfigMessage(sender=self.hive_node_manager.local_node, recipient=node, new_config=config)
+            self.outbound_message_queue.enqueue(update_message)
+            self.logger.info("CliCommandProcessor", f"Sent configuration update to {node_name}")
+        else:
+            self.logger.warning("CliCommandProcessor", f"No node found with name {node_name}")
+
 
     def process_command(self, command: str) -> None:
         """
@@ -146,6 +187,21 @@ class CliCommandProcessor:
             self.commands[command_name](*command_args)
         else:
             self.logger.info("CliCommandProcessor", f"Unknown command: {command}")
+
+    def show_node_config(self, node_name):
+        # Retrieve the node from the node manager using the node_name
+        node = self.hive_node_manager.get_node_by_name(node_name)
+        if node:
+            # Assuming a method in node to get its configuration in readable format
+            config = node.get_configuration()
+            print(f"Configuration for {node_name}: {config}")
+        else:
+            print(f"No node found with name {node_name}")
+
+
+    def show_all_nodes_config(self):
+        for node in self.hive_node_manager.hive_nodes:
+            print(f"{node.friendly_name}: {node.get_configuration()}")
 
     def list_commands(self) -> None:
         """

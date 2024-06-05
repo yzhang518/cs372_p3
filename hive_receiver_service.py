@@ -10,6 +10,10 @@ from ack_message import AckMessage
 from connect_message import ConnectMessage
 from heartbeat_message import HeartbeatMessage
 
+from messages import UpdateConfigMessage, ServiceStatusMessage
+from message_queue import MessageQueue
+from hive_node_manager import HiveNodeManager
+
 
 class HiveReceiverService:
     """
@@ -34,32 +38,14 @@ class HiveReceiverService:
         A queue for storing outgoing messages.
     """
 
-    def __init__(self, name: str, ip_address: str, port: int, hive_node_manager, inbound_message_queue: MessageQueue, outbound_message_queue: MessageQueue):
-        """
-        Initializes a new instance of HiveReceiverService.
-
-        Parameters:
-        ----------
-        name : str
-            The name of the HiveReceiverService instance.
-        ip_address : str
-            The IP address on which the service listens.
-        port : int
-            The port number on which the service listens.
-        hive_node_manager : HiveNodeManager
-            An instance of HiveNodeManager for managing the list of nodes.
-        inbound_message_queue : MessageQueue
-            A queue for storing incoming messages.
-        outbound_message_queue : MessageQueue
-            A queue for storing outgoing messages.
-        """
-        self.logger: Logger = Logger()
-        self.name: str = name
-        self.ip_address: str = ip_address
-        self.port: int = port
+    def __init__(self, name, ip_address, port, hive_node_manager, inbound_message_queue, outbound_message_queue):
+        self.logger = Logger()
+        self.name = name
+        self.ip_address = ip_address
+        self.port = port
         self.hive_node_manager = hive_node_manager
-        self.inbound_message_queue: MessageQueue = inbound_message_queue
-        self.outbound_message_queue: MessageQueue = outbound_message_queue
+        self.inbound_message_queue = inbound_message_queue
+        self.outbound_message_queue = outbound_message_queue
 
         self.logger.debug("HiveReceiverService", "HiveReceiverService initialized...")
 
@@ -107,7 +93,11 @@ class HiveReceiverService:
                     port_number=int(data_dict['source_port'])
                 )
 
-                if command == 'connect':
+                if command == 'update_config':
+                    self.handle_update_config(data_dict, sender_node)
+                elif command == 'service_status':
+                    self.handle_service_status(data_dict, sender_node)
+                elif command == 'connect':
                     self.handle_connect(data_dict, sender_node)
                 elif command == 'ack_message':
                     self.handle_ack(data_dict, sender_node)
@@ -121,6 +111,15 @@ class HiveReceiverService:
                 # Send acknowledgment message
                 ack_message = AckMessage(self.hive_node_manager.local_node, sender_node)
                 client_socket.sendall(ack_message.to_json().encode())
+    
+    def handle_update_config(self, data_dict, sender_node):
+        new_config = data_dict['new_config']
+        self.hive_node_manager.update_node_config(sender_node, new_config)
+        self.logger.info("HiveReceiverService", f"Configuration updated for {sender_node.friendly_name}")
+
+    def handle_service_status(self, data_dict, sender_node):
+        status = data_dict['service_status']
+        self.logger.info("HiveReceiverService", f"Service status from {sender_node.friendly_name}: {status}")
 
     def handle_connect(self, data_dict: Dict, sender_node: HiveNode) -> None:
         """

@@ -3,22 +3,50 @@
         {
             "friendly_name": "LosAngeles",
             "ip_address": "127.0.0.1",
-            "port": 54321
+            "port": 54321,
+            "services": [
+                {
+                    "type": "HTTPS",
+                    "url": "https://www.google.com/",
+                    "interval": 5
+                }
+            ]
         },
         {
             "friendly_name": "London",
             "ip_address": "127.0.0.1",
-            "port": 54322
+            "port": 54322,
+            "services": [
+                {
+                    "type": "HTTPS",
+                    "url": "https://www.google.com/",
+                    "interval": 5
+                }
+            ]
         },
         {
             "friendly_name": "Brisbane",
             "ip_address": "127.0.0.1",
-            "port": 54323
+            "port": 54323,
+            "services": [
+                {
+                    "type": "HTTPS",
+                    "url": "https://www.google.com/",
+                    "interval": 5
+                }
+            ]
         },
         {
             "friendly_name": "NewYork",
             "ip_address": "127.0.0.1",
-            "port": 54324
+            "port": 54324,
+            "services": [
+                {
+                    "type": "HTTPS",
+                    "url": "https://www.google.com/",
+                    "interval": 5
+                }
+            ]
         }
     ]
 }

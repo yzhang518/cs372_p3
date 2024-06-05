@@ -60,21 +60,20 @@ class HiveSenderClient:
         """
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
             try:
-                client_socket.connect((hive_message.message.recipient.ip_address, int(hive_message.message.recipient.port_number)))
-                self.logger.debug("HiveSenderClient", f"Connected to {hive_message.message.recipient.friendly_name}")
+                # Access recipient information through the contained BaseMessage
+                recipient = hive_message.message.recipient
+                client_socket.connect((recipient.ip_address, int(recipient.port_number)))
+                self.logger.debug("HiveSenderClient", f"Connected to {recipient.friendly_name}")
                 client_socket.sendall(hive_message.message.to_json().encode())
                 self.logger.debug("HiveSenderClient", f"Sent: {hive_message.message.to_json()}")
-                data: bytes = client_socket.recv(1024)
+                data = client_socket.recv(1024)
                 self.logger.debug("HiveSenderClient", f"Received: {data.decode()}")
             except ConnectionRefusedError:
-                self.logger.error("HiveSenderClient", f"Connection to {hive_message.message.recipient.friendly_name} failed")
+                self.logger.error("HiveSenderClient", f"Connection to {recipient.friendly_name} failed")
                 hive_message.send_attempt_count += 1
-
-                hive_message.message.recipient.increase_failed_connection_count()
-
                 if hive_message.send_attempt_count >= AppSettings.MAX_SEND_ATTEMPTS:
-                    self.logger.warning("HiveSenderClient", f"Failed to send message to {hive_message.message.recipient.friendly_name} after {AppSettings.MAX_SEND_ATTEMPTS} attempts")
+                    self.logger.warning("HiveSenderClient", f"Failed to send message to {recipient.friendly_name} after {AppSettings.MAX_SEND_ATTEMPTS} attempts")
                 else:
                     self.outbound_message_queue.enqueue(hive_message)
-            except AttributeError:
-                self.logger.error("HiveSenderClient", f"Connection to {hive_message.message.recipient.friendly_name} at {hive_message.message.recipient.ip_address}:{hive_message.message.recipient.port_number} failed. Removing message from queue...")
+            except AttributeError as e:
+                self.logger.error("HiveSenderClient", f"Attribute error in message handling: {str(e)}. Check message structure.")

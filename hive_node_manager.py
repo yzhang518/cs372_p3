@@ -35,6 +35,17 @@ class HiveNodeManager:
         self.add_node(local_node)
 
         self.logger.debug("HiveNodeManager", "HiveNodeManager initialized...")
+    
+    def update_node_config(self, node_name, new_config):
+        node = self.get_node_by_name(node_name)
+        if node:
+            node.update_configuration(new_config)
+            self.logger.info("HiveNodeManager", f"Configuration updated for {node_name}: {new_config}")
+        else:
+            self.logger.warning("HiveNodeManager", f"Node {node_name} not found")
+
+    def get_node_by_name(self, name):
+        return next((node for node in self.hive_nodes if node.friendly_name == name), None)
 
     def add_node(self, new_node: HiveNode) -> None:
         """

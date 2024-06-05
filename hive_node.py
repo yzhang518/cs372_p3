@@ -35,28 +35,20 @@ class HiveNode:
         'failed_connections': 'Failed Connections',
     }
 
-    def __init__(self, friendly_name: str, ip_address: str, port_number: int, is_local_node: bool = False):
-        """
-        Initializes a new instance of HiveNode.
 
-        Parameters:
-        ----------
-        friendly_name : str
-            The friendly name of the node.
-        ip_address : str
-            The IP address of the node.
-        port_number : int
-            The port number on which the node is listening.
-        is_local_node : bool, optional
-            Indicates whether this node is the local node (default is False).
-        """
-        self.friendly_name: str = friendly_name
-        self.ip_address: str = ip_address
-        self.port_number: int = port_number
-        self.last_heartbeat_timestamp: Optional[datetime.datetime] = None
-        self.status: str = "Live"
-        self.failed_connection_count: int = 0
-        self.is_local_node: bool = is_local_node
+    def __init__(self, friendly_name: str, ip_address: str, port_number: int, is_local_node: bool = False, service_checks=None):
+        self.friendly_name = friendly_name
+        self.ip_address = ip_address
+        self.port_number = port_number
+        self.last_heartbeat_timestamp = None
+        self.status = "Live"
+        self.failed_connection_count = 0
+        self.is_local_node = is_local_node
+        self.service_checks = service_checks if service_checks else []
+
+    def update_configuration(self, new_config):
+        self.service_checks = new_config
+        print(f"Configuration updated for {self.friendly_name}: {self.service_checks}")
 
     def set_last_heartbeat_timestamp(self) -> None:
         """
